@@ -13,6 +13,12 @@ function App() {
 
 
 
+  
+  const handleUpdatedTodo = newtood =>{
+    setTodos(newtood);
+  }
+  
+
 
   const handleValueChange = event =>{
     setTodo(event.target.value);
@@ -47,7 +53,7 @@ function App() {
       <h1>TODO</h1>
       <input className='todo-input' placeholder="please add something to do" value={todo} onChange={handleValueChange} onKeyDown={handleKeyEvent}></input>
       <div>
-      <Todo  list={todos}/>
+      <Todo  list={todos} handleUpdatedTodo={handleUpdatedTodo} />
       </div>
     </div>
   );

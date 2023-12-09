@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react"
 import { PiCheckCircleLight, PiCheckCircleFill } from "react-icons/pi";
 import Archived from './Archived';
+import fs from 'fs';
 import './App.css';
 
 const Todo = (props) => {
-  const { list } = props;
+  const { list, handleUpdatedTodo } = props;
   const [updatedList, setUpdatedList ] = useState(list)
   const [archived, setArchived] = useState([]);
 
@@ -16,11 +17,13 @@ const Todo = (props) => {
   }
 
 
-  const handleIncomplete = ({id, task } = task) =>{
+  const handleIncomplete = async ({id, task } = task) =>{
     const newList = updatedList.filter((e)=>e.id!=id);
    setUpdatedList(newList) 
    handleArchived(task)
+   handleUpdatedTodo(newList)
 }
+
 
   useEffect(() => { setUpdatedList(list)}, [list])
 
