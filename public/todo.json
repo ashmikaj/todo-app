@@ -1,0 +1,19 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "task": "put water in fridge",
+        "isComplete": false
+      },
+      {
+        "id": 2,
+        "task": "put fruits in basket",
+        "isComplete": false
+      },
+      {
+        "id": 3,
+        "task": "Do homework",
+        "isComplete": false
+      }
+    ]
+}

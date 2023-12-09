@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.task-list{
+  display: block;
+}
+
+.todo-input{
+  height: 2.4rem;
+  width: 40rem;
+  border-radius: 0.8rem ;
+  border: 2px solid maroon;
+}
+
+
+.task-list--item {
+list-style-type: none;
+text-align: left;
+font-size: x-large;
+font-style: italic;
+display: flex;
+}
+
+.pi-circle{
+  margin-top: 0.3rem;
+}
+
+.archived-list{
+  color: grey;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
