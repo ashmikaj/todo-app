@@ -13,6 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+<img width="1423" alt="Screenshot 2023-12-10 at 12 36 37 PM" src="https://github.com/ashmikaj/todo-app/assets/100485474/c3e4c811-c062-414c-bd7c-1e73c6c45ca7">
+
+<img width="1422" alt="Screenshot 2023-12-10 at 12 36 55 PM" src="https://github.com/ashmikaj/todo-app/assets/100485474/2dabd4a4-9a31-4f0a-90fa-59c4b043e147">
 
 ### `npm test`
 
