@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { PiCheckCircleLight, PiCheckCircleFill } from "react-icons/pi";
 import Archived from './Archived';
-import fs from 'fs';
 import './App.css';
 
 const Todo = (props) => {
